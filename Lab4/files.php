@@ -42,6 +42,7 @@ include_once "functions.php";
     <input class="button" name="php-button" type="submit" id="php-button" value="PHP"/>
     <input class="button" name="cpp-button" type="submit" id="cpp-button" value="CPP"/>
     <input class="button" name="java-button" type="submit" id="java-button" value="Java"/>
+    <input class="button" name="statistics-button" type="submit" id="statistics-button" value="Statystyki"/>
 
     <br><br>
     <?php
@@ -60,6 +61,9 @@ include_once "functions.php";
         }
         else if (filter_input(INPUT_POST, "java-button")) {
             showFiltered("Java");
+        }
+        else if (filter_input(INPUT_POST, "statistics-button")){
+            showStats();
         }
     }
     

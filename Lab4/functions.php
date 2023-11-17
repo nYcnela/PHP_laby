@@ -76,3 +76,26 @@ function showFiltered($language) {
     }
     fclose($file);
 }
+
+function showStats(){
+    $file = fopen("dane.txt", "r") or die("Unable to open file");
+
+    $file_lines = explode("\n", fread($file, filesize("dane.txt")));
+    //usuniecie ostatniej lini w tablicy poniewaz jest ona znakiem bialym
+    array_pop($file_lines);
+    $age_less_18_count = 0;
+    $age_more_or_eq_50_count = 0;
+
+    foreach ($file_lines as $line) {
+        $age = explode(",", $line)[1];
+        if ($age < 18)
+            $age_less_18_count++;
+        elseif ($age >= 50)
+            $age_more_or_eq_50_count++;
+    }
+    print("Liczba wszystkich zamówień: " . count($file_lines) . "<br>");
+    print("Liczba zamówień od osób w wieku < 18 lat: $age_less_18_count<br>");
+    print("Liczba zamówień od osób w wieku >= 50 lat: $age_more_or_eq_50_count<br>");
+
+    fclose($file);
+}
