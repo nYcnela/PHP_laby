@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+ <user>
+ <userName>admin</userName>
+<passwd>admin</passwd>
+ <fullName>Administrator</fullName>
+ <email>admin@gmail.com</email>
+ <date>2018-09-10</date>
+ <status>2</status> 
+ </user>
+ <user>
+ <userName>beatap</userName>
+ <passwd>beatap</passwd>
+ <fullName>Beata P.</fullName>
+ <email>beatap@gmail.com</email>
+ <date>2018-10-10</date>
+ <status>1</status> 
+ </user>
+<user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$aavnXGBqKwPtUSRlzXGZeuw97SgrV4urMUmg8DwOlhCKR35hpXYzO</passwd><status>1</status><date>2023-11-24 07:31:13</date></user><user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$cg25xPFOrPiPlqV5zn68JO3daXnRxKv5vYUoUdebhpXhHjBiVgpOi</passwd><status>1</status><date>2023-11-24 07:32:23</date></user><user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$uvvpVD7K.pQ0m.IrTnEV8eCBP3yGxK19XRNxXcGr557Xn/DFBwl/m</passwd><status>1</status><date>2023-11-24 07:32:35</date></user><user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$oohgW8zih.M77e6mYnuT3e0eopkp2bECHyzJVjSlnNkzQX3AwZ4Be</passwd><status>1</status><date>2023-11-24 07:32:43</date></user><user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$5OlzEC2B/EB4DbJ3g8nVyuU3W/M7Ty4/f.snd2uTuOEJCrcUNtovK</passwd><status>1</status><date>2023-11-24 08:32:46</date></user><user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$gFPeaiy5g1jYh6uOdBA1.uKybn/BYxRVfsSw/f7gTft4dZAhZ5W6i</passwd><status>1</status><date>2023-11-24 08:34:58</date></user><user><userName>Maciek</userName><fullName>Maciek</fullName><email>test.test@gmail.com</email><passwd>$2y$10$izF4puk0Z0/cMFHlPFEWcei/Wekq7TrCHhweS7KflS36H3J50IQPG</passwd><status>1</status><date>2023-11-24 08:35:31</date></user></users>
